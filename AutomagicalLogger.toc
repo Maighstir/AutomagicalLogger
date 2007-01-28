@@ -1,10 +1,23 @@
 ## Interface: 20003
 ## Title: Automagical Logger
-## Notes: Starts the built-in chat/combat log when the game starts up.
-## X-Date: 2007-01-28
+## Title-frFR: Automagical Logger
+## Title-deDE: Automagical Logger
+## Title-esES: Automagical Logger
+## Notes: Starts the built-in chatlog and/or combatlog when the game starts up.
+## Notes-frFR: Starts the built-in chatlog and/or combatlog when the game starts up.
+## Notes-deDE: Starts the built-in chatlog and/or combatlog when the game starts up.
+## Notes-esES: Starts the built-in chatlog and/or combatlog when the game starts up.
+## X-Date: 2007-01-24
 ## Author: Maighstir
-## X-Email: approx_@hotmail.com
+## X-eMail: approx_@hotmail.com
+## eMail: approx_@hotmail.com
 ## X-Category: MYADDONS_CATEGORY_CHAT
-## Version: 1.1
+## Version: 2.0
+## OptionalDeps: myAddOns
+## DefaultState: enabled
+## X-Help: AUTOLOGGER_HELP
+## X-OptionsFrame: AutomagicalLoggerSettingsFrame
+## SavedVariablesPerCharacter: AutomagicalLoggerSettings
 ## Dependencies:
+AutomagicalLogger.xml
 AutomagicalLogger.lua
