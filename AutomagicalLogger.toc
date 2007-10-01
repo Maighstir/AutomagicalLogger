@@ -1,4 +1,4 @@
-## Interface: 20003
+## Interface: 20200
 ## Title: Automagical Logger
 ## Title-frFR: Automagical Logger
 ## Title-deDE: Automagical Logger

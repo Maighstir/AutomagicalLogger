@@ -22,19 +22,23 @@ end
 
 function AutomagicalLogger_Init()
 	local AutomagicalLogger_Defaults={
-		["chatlog"]=1,
-		["combatlog"]=0,
+		["chat"]=1,
+		["combat"]=0,
 	}
+
+	if(not AutomagicalLoggerSettings) then
+		AutomagicalLoggerSettings =  {};
+	end
 
 	if(AutomagicalLoggerSettings) then
 		-- Check the chat log
 		if(not AutomagicalLoggerSettings.ChatLog) then
-			AutomagicalLoggerSettings.ChatLog = AUTOLOGGER_DEFAULT_CHAT;
+			AutomagicalLoggerSettings.ChatLog = AutomagicalLogger_Defaults.chat;
 		end
 
 		-- Check the combat log
 		if(not AutomagicalLoggerSettings.CombatLog) then
-			AutomagicalLoggerSettings.CombatLog = AUTOLOGGER_DEFAULT_COMBAT;
+			AutomagicalLoggerSettings.CombatLog = AutomagicalLogger_Defaults.combat;
 		end
 	end
 
