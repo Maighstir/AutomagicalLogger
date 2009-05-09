@@ -1,10 +1,11 @@
 ## Interface: 30100
 ## Title: Automagical Logger
 ## Notes: Starts the built-in chat/combat log when the game starts up.
-## X-Date: 2009-04-24
+## X-Date: 2009-05-07
 ## Author: Maighstir
 ## X-Email: approx_@hotmail.com
 ## X-Category: MYADDONS_CATEGORY_CHAT
-## Version: 1.1.30100
-## Dependencies:
+## X-Help: AUTOMAGICALLOGGER_HELP
+## Version: 1.5.30100
+## SavedVariables: AutoLogCombat, AutoLogChat
 AutomagicalLogger.lua
