@@ -1,10 +1,6 @@
 
 AUTOMAGICALLOGGER_HELP = { "To check settings, use either of these commands:\n/automagicallogger\n/autolog\n\nTo change settings use:\n/autolog {chat|combat} {on|off}" };
 
-AUTOMAGICALLOGGER_DETAILS = {
-	name = "Automagical Logger"
-};
-
 function AutomagicalLogger()
 	if (AutoLogChat == true) then
 		if (LoggingChat()) then

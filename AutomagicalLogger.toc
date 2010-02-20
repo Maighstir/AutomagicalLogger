@@ -1,11 +1,16 @@
-## Interface: 30200
+## Interface: 30300
 ## Title: Automagical Logger
-## Notes: Starts the built-in chat/combat log when the game starts up.
-## X-Date: 2009-08-09
 ## Author: Maighstir
+## Version: 1.6.30300
+## Notes: Starts the built-in chat/combat log when the game starts up.
+## eMail: approx_@hotmail.com
+## X-Date: 2010-02-20
 ## X-Email: approx_@hotmail.com
 ## X-Category: MYADDONS_CATEGORY_CHAT
 ## X-Help: AUTOMAGICALLOGGER_HELP
-## Version: 1.5.30200
-## SavedVariables: AutoLogCombat, AutoLogChat
+## X-OptionsFrame: AutomagicalLoggerFrame
+## OptionalDeps: myAddOns
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: AutoLogCombat,AutoLogChat
 AutomagicalLogger.lua
